@@ -4,7 +4,8 @@ this site will be contatining links to the other pages
 * [explainer notebook](https://rolfoe.github.io/project-assignment-B/Explainer_notebook.md)
 
 **the link below leads to a page holding all the network maps in the project**
-* [networks](https://rolfoe.github.io/project-assignment-B/network)
+1. [networks](https://rolfoe.github.io/project-assignment-B/CK3-County-Network)
+2. [networks](https://rolfoe.github.io/project-assignment-B/CK3-County-Network-Force)
 
 **this link lead to te written analysis all the work above has been about creating**
 * [analysis](https://rolfoe.github.io/project-assignment-B/analysis.md)
