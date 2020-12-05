@@ -5,7 +5,7 @@ While this project is about the videogame Crusader Kings 3 (CK3), it is more so 
 Therefore is must be remembered that tihs project is more of a techinal showcase of tools, then a study in medival politics.
 Any additon of political theory is there to give context and spice to the datamanipulation and calculations, and should not be taken as valid facts.
 This is espicially true when comparing the language use of modern wikipedia articles, to historical areas of strife and contestation. 
-While the method of comparing language use to historical regions may one day be developed into something, this project is not nearly refined wnough to give vaild accounts.
+While the method of comparing language use to historical regions may one day be developed into something, this project is not nearly refined enough to give vaild accounts.
 
 This being said i hope you enjoy the tour.
 
@@ -42,7 +42,7 @@ The analysis is centered around the county, as it is the games own point of refe
 
     cleaning and preprocessing
 I made and used a Wikipedia scraper to scrape the Wikipedia pages of the 2548 counties in the column called 'County'. an operation that gave me access to 1981 articles. a secondary scrape based on the 'ID' collum, from the same table increased that number to 2051. as some of the ID contained a more appropriate spelling of county names.
-the linking of countys to larger units was nice in terms of creating a sensible network but lead to to some data cleaning, as administrative units oftentime are named after dorminant countys or citys for example Essex being both a duchy and a county or worse Finland being both a Kingdom and a county 
+the linking of countys to larger units was nice in terms of creating a sensible network but lead to to some data cleaning, as administrative units oftentime are named after dorminant countys or citys for example Essex being both a duchy and a county or worse Finland being both a Kingdom and a county worst offernder was the middel eastern county of Turin being merged with an empire node also called Turin which made the county the appears in the top 20 best connected nodes in the network.
     Write a short section that discusses the dataset stats (here you can recycle the work you did for Project Assignment A)
 
     Tools, theory and analysis. Describe the process of theory to insight
