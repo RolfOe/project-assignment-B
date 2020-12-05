@@ -30,7 +30,7 @@ overall
 
     What was your goal for the end user's experience?
 The goal for this project was to shead some knew light, on the the already extenisve knowledgebase, used by the Paradox gamedeveoplers in making CK3.
-and to sate my own curiosity on the useability of tools i was tought in the class. when i go onto some on the wilder analysis on the webpage. Discussing the oft cited Clash of Civilasations? by Samuel P. Huntington from harvard University. a book which in short  posit that post-Cold War conflict would most frequently and violently occur because of cultural rather than ideological differences. While huntington talks in regard to the post-coldwar era world, i decided that digging into a gamefied and historically distant version of this "war of cultures" made me less likely to get into politics.
+and to sate my own curiosity on the useability of tools i was tought in the class. when i go onto some on the wilder analysis on the webpage. Discussing the oft cited/oft critized "Clash of Civilasations?" from 1993, by Samuel P. Huntington of Harvard University. a book which in short  posit that post-Cold War conflict would most frequently and violently occur because of cultural rather than ideological differences. While huntington talks in regard to the post-coldwar era world, i decided that digging into a gamefied and historically distant version of this "war of cultures" made me less likely to get into politics.
 
 
     Basic stats. Let's understand the dataset better
