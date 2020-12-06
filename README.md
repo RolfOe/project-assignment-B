@@ -1,3 +1,6 @@
+--
+README
+--
 # Project-assignment-B
 Project assignment B for Social Graphs 2020
 
