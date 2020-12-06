@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Me"
+  },
+  "text": {
+    "more": "Graph showing all county and what Duchy, Kingdom or Empire they belong to. And what Cultue and Religion they have at the start of the game.\nAs Duchy, Kingdom and Empire are legal titles rather then geographical descriptors they are not linked together in this graph.\n\nThe layout is from the plugin \"Circle Pack Layout\", available in Tools submenu inside Gephi",
+    "intro": "Graph showing all Countys and to what they are linked.\nThe nodecircles are sorted in a hierarchy based firstly on Modularity, second on Culture and third on Religion.",
+    "title": "CK3-County-Network"
+  },
+  "legend": {
+    "edgeLabel": "county linked higher order structure",
+    "colorLabel": "Color by modularity",
+    "nodeLabel": "County,Duchy,Empire,Cultue,Religion"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
