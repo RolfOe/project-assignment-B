@@ -1,4 +1,7 @@
-this site will be contatining links to the other pages
+--
+ABOUT
+--
+this site containing links to the other pages of my project
 
 **this site gives a short introduction but mainly serves as a techinal overvier on how the material here was produced**
 * [explainer notebook](https://rolfoe.github.io/project-assignment-B/Explainer_notebook.md)
