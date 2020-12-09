@@ -20,8 +20,7 @@ If you simply want to play with my interactive maps or download the datasets you
 
 <a href="/Code, Tools and Maps">Code, Tools and Maps</a>
 
-lastly a list of refrences to the tolls websites and etc. i have used, can be found following the link below
+lastly a list of refrences to the tools websites and etc. i have used, can be found following the link below
 
 <a href="/Refrences">Refrences</a>
 
-1
