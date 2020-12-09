@@ -53,7 +53,7 @@ So now we have a network map of what counties ought to be the most conflict pron
 But are they actually more prone to conflict?
 
 [War Declared]
-<img src="images/betweenness centrality table.png" alt="hi" class="inline"/>
+<img src="images/War Declared.png" alt="hi" class="inline"/>
 
 Enter Natural Language Processing (NLP) and the least scientifically part of this project website as you will see.
 ### NLP
