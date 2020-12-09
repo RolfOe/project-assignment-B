@@ -12,13 +12,13 @@ I am however not a web develop and my webpage making skills are not... good, so 
 **Navigation**
 Here on the frontpage you will find links to the two main branches of the site:
 
-A <a href="/project-assignment-B/Analysis.md">Analysis</a> for the CK3 fan that simply wants to see where I am taking this project and second:
+A <a href="Analysis.md">Analysis</a> for the CK3 fan that simply wants to see where I am taking this project and second:
 
-A <a href="/project-assignment-B/Explainer_notebook.md">Explainer notebook</a> for the more technically inclined showing how I made it. 
+A <a href="/Explainer_notebook.md">Explainer notebook</a> for the more technically inclined showing how I made it. 
 
 If you simply want to play with my interactive maps or download the datasets yourself the following page is for you:
 
-<a href="/project-assignment-B/Code, Tools and Maps.md">Code, Tools and Maps</a>
+<a href="/Code, Tools and Maps.md">Code, Tools and Maps</a>
 
 
 
