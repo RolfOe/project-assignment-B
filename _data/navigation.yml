@@ -1,0 +1,15 @@
+# Site navigation links
+- title: Home
+  url: /
+
+- title: Presentations
+  url: /About/
+
+- title: CV
+  url: /Analysis.md/
+
+- title: Blog
+  url: /explainer_notebook.md/
+
+- title: Workshops
+  url: /Code, Tools and Maps.md/
