@@ -9,4 +9,5 @@ João
 
 **social science**
 The article ["Clash of civilisations?"](https://www.jstor.org/stable/20045621?seq=1)
+
 summary of the abouve article [LA times summary on what the above article is about](https://www.latimes.com/archives/la-xpm-2008-dec-28-me-huntington28-story.html)
