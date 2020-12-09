@@ -86,3 +86,11 @@ The following step is scraping the Wikipedia page of all the counties in the lis
 While the NLP I am about to do is good in and of itself several issues emerge. first off, the Wikipedia pages are of the countries today and not in the year 1066, second not all of the countries are immediately scrapable, as the scraper I use cannot abide non-latin characters as it simply look up the web-URL. Neither does it deal well with page redirects, meaning that even when I do get it to scrape a non-conventional url-character, the content I get can end up looking like this: “#REDIRECT [[Baqen]]” as is the case for the county of “Baqên”.
 In other words, don’t take these results as something important.
 
+this is sadly where out current journy ends all i can bring you at this time is two wordclouds. one for Tunis the highest scoreing in betweenes centrality
+[Heir of Carthage]
+<img src="images/Tunis.png" alt="hi" class="inline"/>
+
+and of all my precious counties
+<img src="images/Countyall.png" alt="hi" class="inline"/>
+
+
