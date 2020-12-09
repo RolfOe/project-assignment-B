@@ -1,4 +1,4 @@
-Code, tools and Maps
+Code, Tools and Maps
 --
 
 description: here you will find what tools and code have been used to create the graphs and do the analysis on this github page
