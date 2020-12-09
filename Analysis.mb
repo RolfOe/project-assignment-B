@@ -1,4 +1,4 @@
-title: Analysis mainpage
+title: Analysis main page
 layout: template
 filename: Analysis.md 
 
@@ -17,7 +17,7 @@ Or as The LA times summarized Huntington’s later book with the same name: “H
 If it is the case that a world without overarching ideologies tends to have conflicts based on friction between cultures, that too would be the case in the medieval era since ideologies did not exist back then. Since I was sitting on a dataset approximating cultures in the medieval era it might indeed be interesting to see how pronounced this tendency for conflict is.  
 ## How do we find places of friction/conflict?
 
-First thing first we need to find an overview of the county's, cultures and other significant attributes that might relate the game to the theory, thankfully the game developers have a wiki in place that provides us with just such a table [countylist](https://ck3.paradoxwikis.com/List_of_counties). On the table we see three orders of what I will be calling administrative titles “Duchy, Kingdom, and Empire as well as two demographic attributes Culture and Religion.
+First thing first we need to find an overview of the counties, cultures and other significant attributes that might relate the game to the theory, thankfully the game developers have a wiki in place that provides us with just such a table [countylist](https://ck3.paradoxwikis.com/List_of_counties). On the table we see three orders of what I will be calling administrative titles “Duchy, Kingdom, and Empire" each administering an increasing number of counties, as well as two demographic attributes Culture and Religion.
 
 After downloading the table, I import it to the network visualization and investigation tool Gephi.
 In Gephi datapoints are shown in an overview tab as two types of datapoints nodes and edges or dots and lines in layman’s terms.
@@ -32,46 +32,50 @@ In network analysis a node is any entity connected to other entities via a link/
 The same function of “inherited” importance or relevance can be used in our CK3 network of  counties, cultures and empires. It can also be used to form groupings.
 As I import the table to Gephi I specify that I want county to be linked to their default groups: Duchys, Kingdoms, Empires, Cultures and Religions. 
 An overall picture of what this grouping looks like can be seen on the following link:
-[grouping] (indsæt link til circle pack)
+[grouped counties](https://rolfoe.github.io/project-assignment-B/CK3-County-Network-Circlelayout)
 
-Here we see each empire in the game, each coloured with its dependant counties. I have however additionally used something called modularity to cluster all the nodes. Modularity is a tool design to calculate what connected nodes are most likely to belong to the same group, additional information on how this is done, can be found in the [Explainer notebook](https://rolfoe.github.io/project-assignment-B/Explainer_notebook.md). What it means here is simply that empires that share more nodes tend to cluster more together. Share nodes here meaning sharing: counties that be themselves share links to cultures and religions.
+Here we see each node, coloured along with tis dependant entities. via something called called modularity to cluster all the nodes.
+Modularity is a tool design to calculate what connected nodes are most likely to belong to the same group, additional information on how this is done, can be found in the [Explainer notebook](https://rolfoe.github.io/project-assignment-B/Explainer_notebook.md). What it means here is simply that empires that share more nodes tend to cluster more together. Share nodes here meaning sharing: counties that be themselves share links to cultures and religions.
 This is a nice map to get an idea of what we are looking at, but it does not show us what the most important places are. At this point one would be forgiven for thinking the most important node is simply the largest unit as it has most other nodes connecting it. likely some sort of empire, religion, or culture.
 
-But since these terms are but names given to a cluster of counties they cannot carry any conflicts in and of themselves. After all geography is determined at the county level. For example, the kingdom of Denmark is still considered the kingdom of Denmark if it loses the Duchy of Holstein, just as Holstein is still a duchy if Lubeck becomes independent. Buts since geography is tied to the county level it is the lowest dividable factor, we have available, even if in reality one might talk of suburbs within the county of Lubeck. 
+But since these terms are but names given to a cluster of counties they cannot carry any conflicts in and of themselves. while county is the smallest unit in the game, is also where geography is determined. 
 
 Thanks to network science we do however have other ways of investigating the network. There are several ways of finding a node that carries importance in a network in this project we will be using “betweenness centrality”.
 
 ** betweenness centrality**
 betweenness centrality is a way of measuring how many times each node part of the shortest bridges between two other nodes in the same network. You calculate the shortest path between every pair of nodes in your network. The fraction of times each node is found on such a path, divided by the total number of pairs. Is then the betweenness centrality of that node.
 
-For our purpose, no two countries will be connected by themselves, but all counties are going to be connected via attributes such as Religion, Empires and Culture, this means that the county with the highest betweenness centrality is the county not only between two attribute nodes. But it is also on the shortest path between other county nodes. Making it a measurement of friction and contestation insofar as culture, religion, or administration can be considered to increase friction and contestation as the theory predicts. 
+For our purpose, no two counties will be connected to each other, but all counties are going to be connected via attributes such as Religion, Empires and Culture, this means that the county with the highest betweenness centrality is the county not only between two attribute nodes. But it is also on the shortest path between other county nodes. Making it a measurement of friction and contestation insofar as culture, religion, or administration can be considered to increase friction and contestation as the theory predicts. 
 Therefore the networkmap in the link below has been created with counties as the base, connecting to all other Entities.
-The sizeing of the nodes was done by, first calculating betweenness centrality of all nodes, and then manually setting the betweenness centrality of all non-county entities to 0.
+The size of the nodes was done by, first calculating betweenness centrality of all nodes, and then manually setting the betweenness centrality of all non-county entities to 0.
 
 [Betweenness centrality map](https://rolfoe.github.io/project-assignment-B/CK3-County-Network-Force%20Atlas-%20betweenness%20centrality/#)
 
 The way these nodes are spread around is done via an algorithm native to Gephi called “Force-Atlas-2. Which pushes all nodes away from one another, but attracts those linked via an edge,
 ### why not group the other entities and all counties as well? 
-Had the county nodes been connected to each other as well, one would have had to make the decision of group of counties that should be linked, giving a deflated importance to whichever group was chosen, counterintuitive as it may seem, but as all the counties within this group would have a path between them with a length of one, while all other variants of groupings is still dependent on a unifying node, this decreases the importance of what used to be a unifying node. And if every variant of grouping was collapsed, by unifying the counties thusly there would be no need for including the grouping nodes as they would no longer be between anything on any shortest path, as all relevant nodes were already linked directly to a county making it harder to see by what measure a county got its betweenness centrality without them.
+Had the county nodes been connected to each other as well, one would have had to decide on which counties that should be linked. If one of the existing nodes, say culture was chosen it would give a deflated importance to the culture nodes. While this sounds counterintuitive what happens is that, as all the counties within a chosen group gets a direct path between them, the unifying aspect of the node they were grouped by vanishes. While all the other groupings still dependent on a unifying group node becomes relatively less connected.
+One may try to counter this by collapsing all the unifying nodes, as by unifying the counties thusly there would be no need for including the grouping nodes, as they would no longer be between anything nodes on any shortest path. But this solution makes it harder to see by what measure a county got its betweenness centrality as there is no longer any organizing nodes in the network.
 
 An example is shown below with a network compromising only Norway and Scotland 
 
 [example 1]
 <img src="images/goodexample.png" alt="hi" class="inline"/>
-Here we see that Norwegian counties are connected to the Scottish ones via the three counties Shetland, Orkney and Faereyar as the three counties share a religion and a culture with the scots, while being part of the kingdom of Norway, and part of the Scandinavian empire 
+HHere we see that Norwegian counties are connected to the Scottish ones via the three counties Shetland, Orkney and Faereyar. The three counties share a religion and a culture with the scots, while being part of the Kingdom of Norway, and part of the Scandinavian empire. All the nodes are sized by their betweenness centrality. It is clear that Catholicism is the primary Scottish connection for the three counties, while the Pictish culture have some relevance as well.
 [example 2]
- <img src="images/goodexample2.png" alt="hi" class="inline"/>
-Here we see the same network with all non counties having their Betweenness centrality reduced to zero, which gives an increase in relative size, making it easier too se the relevant counties. A difference that is more important the larger the network.
+  
+<img src="images/goodexample2.png" alt="hi" class="inline"/>
+Here we see the same network with all non-counties having their Betweenness centrality reduced to zero, which gives an increase in relative size, making it easier to see the relevant counties. A difference that is more important the larger the network.
 
 Does these counties have something in common, well a quick look, eyeballing if you will, at the data attributes shows us that they all have unconventional mixes of culture and religion or are a minority in their empire. 
 [Betweenness centrality table]
 <img src="images/Betweenness centrality table.png" alt="hi" class="inline"/>
 
 This is as expected as we by betweenness centrality are measuring those that link the most different nodes together and being the only Picts in a Norse religion as is the case of the Shetland Isles, means that they are connecting all the Pictish counties to counties following the Norse religion.
-The very top node I terms of betweenness centrality is the node Tunis, a Catholic county in a Muslim empire, with a culture that usually is found among counties much further west. Positioning them as very much a bridge between a great many things
+The very top node I term of betweenness centrality is the node Tunis, a Catholic county in a Muslim empire, with a culture that usually is found among counties much further west. Positioning them as very much a bridge between a great many things
 
-So now we have a network map of what counties ought to be the most conflict prone, as we have alist showing the county with the highest betweenness centrality.
+So now we have a network map of what counties ought to be the most conflict prone, as we have a list showing the county with the highest betweenness centrality.
 But are they actually more prone to conflict?
+
 
 [War Declared]
 <img src="images/War declared.png" alt="hi" class="inline"/>
