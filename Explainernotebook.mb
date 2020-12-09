@@ -48,15 +48,13 @@ the linking of countys to larger units was nice in terms of creating a sensible 
 Gephi
 
 NLP/NLTK
-    Talk about how you've worked with text, including regular expressions, unicode, etc.
-    Describe which network science tools and data analysis strategies you've used, how those network science measures work, and why the tools you've chosen are right for the problem you're solving.
-    How did you use the tools to understand your dataset?
-
+this part did not go as planned. while i did get some nice wordclouds i ran out of time in trying to do get them for my top 30 most relevant counties. At this point i reget trying to make the website and not just doing the work an mailing the notebook in instead.
     Discussion. Think critically about your creation
 
     What went well?,
     What is still missing? What could be improved?, Why?
 One place for obvious improvement is in the Wikipedia scraping. here one could either manually check the spelling of the counties. Or find a tool that can translate uncommon characters into a more Wikipedia friendly format.  for the purpose of showcasing the thoughts of the site it was however deemed sufficient to continue without such labour. 
-
+there is no sentiment analysis to combine my social scince to my videogame, something that is very sad indeed.
+    
     Contributions. Who did what?
 i did this assignment alone :(
