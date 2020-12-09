@@ -14,3 +14,4 @@ Gehpi i highly costumisable with a large varity of plugins and is able to do gra
 1. [network overall with Circle layout](https://rolfoe.github.io/project-assignment-B/CK3-County-Network-Circlelayout)
 2. [network](https://rolfoe.github.io/project-assignment-B/CK3-County-Network-Force)
 3. [betweenness centrality network modified](https://rolfoe.github.io/project-assignment-B/CK3-County-Network-Force Atlas- betweenness centrality)
+
