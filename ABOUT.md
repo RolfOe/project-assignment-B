@@ -18,7 +18,7 @@ A <a href="/Explainer_notebook.md">Explainer notebook</a> for the more technical
 
 If you simply want to play with my interactive maps or download the datasets yourself the following page is for you:
 
-[Code, Tools and Maps](https://rolfoe.github.io/project-assignment-B//Code%20and%20Tools.md)
+<a href="/Code%20and%20Tools.md">Code, Tools and Maps</a>
 
 
 
