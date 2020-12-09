@@ -18,7 +18,7 @@ A <a href="/Explainer_notebook">Explainer notebook</a> for the more technically 
 
 If you simply want to play with my interactive maps or download the datasets yourself the following page is for you:
 
-<a href="/Code, Tools and Maps">Code, Tools and Maps</a>
+<a href="/Code,Tools_and_Maps">Code, Tools and Maps</a>
 
 lastly a list of refrences to the tools websites and etc. i have used, can be found following the link below
 
