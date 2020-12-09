@@ -44,7 +44,7 @@ The way these nodes are spread around is done via an algorithm native to Gephi c
 
 Does these counties have something in common, well a quick look, eyeballing if you will, at the data attributes shows us that they all have unconventional mixes of culture and religion or are a minority in their empire. 
 [Betweenness centrality table]
-<img src="images/betweenness centrality table.png" alt="hi" class="inline"/>
+<img src="images/Betweenness centrality table.png" alt="hi" class="inline"/>
 
 This is as expected as we by betweenness centrality are measuring those that link the most different nodes together, and being the only Picts in a Norse religion as is the case of the Shetland isles, means that they are connecting all the Pictish counties to counties following the Norse religion.
 The very top node I terms of betweenness centrality is the node Tunis, a Catholic county in an Muslim empire, with a culture that usually is found among countys much further west. Positioning them as very much a bridge between a great many things
@@ -53,7 +53,7 @@ So now we have a network map of what counties ought to be the most conflict pron
 But are they actually more prone to conflict?
 
 [War Declared]
-<img src="images/War Declared.png" alt="hi" class="inline"/>
+<img src="images/War declared.png" alt="hi" class="inline"/>
 
 Enter Natural Language Processing (NLP) and the least scientifically part of this project website as you will see.
 ### NLP
