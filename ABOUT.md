@@ -9,11 +9,16 @@ Now why I am going in to so much depth on a topic so frivolous, well mostly for 
 
 I am however not a web develop and my webpage making skills are not... good, so navigation on the site is done via links and nothing here is pretty.
 
-**navitagtion**
-Here on the frontpage you will find links to the two main branches of the site: An [analysis](https://rolfoe.github.io/project-assignment-B/analysis.md) for the CK3 fan that simply wants to see where I am taking this project and second an [explainer notebook](https://rolfoe.github.io/project-assignment-B/Explainer_notebook.md) for the more technically inclined showing how I made it. 
+**navigation**
+Here on the frontpage you will find links to the two main branches of the site:
 
-if you simply want to play with my interactive maps or download the datasets yourself the following page is for you:
+A [analysis](https://rolfoe.github.io/project-assignment-B/analysis.md) for the CK3 fan that simply wants to see where I am taking this project and second:
+
+A [explainer notebook](https://rolfoe.github.io/project-assignment-B/Explainer_notebook.md) for the more technically inclined showing how I made it. 
+
+If you simply want to play with my interactive maps or download the datasets yourself the following page is for you:
 
 [Code, Tools and Maps](https://rolfoe.github.io/project-assignment-B//Code%20and%20Tools.md)
+
 
 
