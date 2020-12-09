@@ -2,3 +2,8 @@ theme: jekyll-theme-slate
 title: Welcome to this homepage!
 description: This page contains an analysis of the videogame Crusader Kings 3 analysed with needlessly modern social science as an excuse to pick it for an assignment in the university course [Social Graphs and Interactions](https://kurser.dtu.dk/course/02805)
 permalink: /:categories/:year/:month/:day/:title:output_ext
+
+---
+layout: page
+title: Coursework
+---
