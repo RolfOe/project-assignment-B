@@ -12,16 +12,14 @@ I am however not a web develop and my webpage making skills are not... good, so 
 **Navigation**
 Here on the frontpage you will find links to the two main branches of the site:
 
-https://rolfoe.github.io/project-assignment-B/Analysis.mb
+
 A <a href="Analysis.mb">Analysis</a> for the CK3 fan that simply wants to see where I am taking this project and second:
-https://rolfoe.github.io/project-assignment-B/Explainer_notebook.mb"
 A <a href="/Explainer_notebook.mb">Explainer notebook</a> for the more technically inclined showing how I made it. 
 
 If you simply want to play with my interactive maps or download the datasets yourself the following page is for you:
-https://rolfoe.github.io/project-assignment-B/Code,Tools_and_Maps.mb
 <a href="/Code,Tools_and_Maps.mb">Code, Tools and Maps</a>
 
 lastly a list of refrences to the tools websites and etc. i have used, can be found following the link below
-https://rolfoe.github.io/project-assignment-B/Refrences.mb
+
 <a href="/Refrences.mb">Refrences</a>
 
