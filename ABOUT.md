@@ -12,16 +12,8 @@ I am however not a web develop and my webpage making skills are not... good, so 
 **navitagtion**
 Here on the frontpage you will find links to the two main branches of the site: An [analysis](https://rolfoe.github.io/project-assignment-B/analysis.md) for the CK3 fan that simply wants to see where I am taking this project and second an [explainer notebook](https://rolfoe.github.io/project-assignment-B/Explainer_notebook.md) for the more technically inclined showing how I made it. 
 
-if you simply want to play with my interactive maps or download the datasets yourself the following page is for you 
+if you simply want to play with my interactive maps or download the datasets yourself the following page is for you:
+
 [Code, Tools and Maps](https://rolfoe.github.io/project-assignment-B//Code%20and%20Tools.md)
 
-
-
-**this site gives a short introduction but mainly serves as a techinal overvier on how the material here was produced**
-* 
-
-**the link below leads to a page holding all the network maps in the project**
-1. [network overall with Circle layout](https://rolfoe.github.io/project-assignment-B/CK3-County-Network-Circlelayout)
-2. [network](https://rolfoe.github.io/project-assignment-B/CK3-County-Network-Force)
-3. [betweenness centrality network modified](https://rolfoe.github.io/project-assignment-B/CK3-County-Network-Force Atlas- betweenness centrality)
 
