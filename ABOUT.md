@@ -2,7 +2,7 @@ About
 --
 
 As the header says this site is an analysis of the game CK3, done as a way of showcasing my own learning of technical tools.
-Now why I am going in to so much depth on a topic so frivolous, well mostly for the fun of it, frivolousness is a big part of the game, as even the patch notes of the express:
+Now why I am going in to so much depth on a topic so frivolous, well mostly for the fun of it, frivolousness is a big part of the game, as even the patch notes express:
 <img src="images/CK3 funny.png" alt="hi" class="inline"/>
 [entire patchnotes CK3 patch 1.2](https://www.crusaderkings.com/en/news/dev-diary-45-1-2-patch-notes?utm_source=stcom-owned&utm_medium=social-owned&utm_content=post&utm_campaign=crki3_ck_20201123_cawe_dd)
 
