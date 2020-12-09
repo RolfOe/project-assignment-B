@@ -12,7 +12,7 @@ I am however not a web develop and my webpage making skills are not... good, so 
 **Navigation**
 Here on the frontpage you will find links to the two main branches of the site:
 
-A <a href="Analysis">Analysis</a> for the CK3 fan that simply wants to see where I am taking this project and second:
+A <a href="Analysis">Analysis.md</a> for the CK3 fan that simply wants to see where I am taking this project and second:
 
 A <a href="/Explainer_notebook.md">Explainer notebook</a> for the more technically inclined showing how I made it. 
 
