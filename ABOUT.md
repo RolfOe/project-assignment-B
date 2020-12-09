@@ -12,7 +12,7 @@ I am however not a web develop and my webpage making skills are not... good, so 
 **Navigation**
 Here on the frontpage you will find links to the two main branches of the site:
 
-A [Analysis](https://rolfoe.github.io/project-assignment-B/analysis.md) for the CK3 fan that simply wants to see where I am taking this project and second:
+A [Analysis](https://rolfoe.github.io/project-assignment-B/Analysis.md) for the CK3 fan that simply wants to see where I am taking this project and second:
 
 A [Explainer notebook](https://rolfoe.github.io/project-assignment-B/Explainer_notebook.md) for the more technically inclined showing how I made it. 
 
