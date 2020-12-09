@@ -3,39 +3,45 @@ Analysis mainpage
 --
 
 So you came for the story. Good on you (: 
-let me start you off with an explanation on what CK3 is. 
-Crusader Kings 3 is a strategy and roleplaying game in which you take control of a historical figure starting in wither 867 or 1066. From here you decide what you want to do, but for the majority of players it involves creating a successful lineage that expands its influence over the medieval world. Spreading (and controlling) its culture and religion.
-With this as the focus of the game, and the game developers trying their hardest to create a realistic staring point I got inspired to test out some modern day political theory on the game world and its somewhat easily available dataset. 
-While this is fun enough by itself, I recalled from my own background in social science a theory of international politics from the article “clash of civilizations?”, published in 1993 by Harvard professor Samuel P Huntington of Harvard University. A theory that roughly states that post-Cold War conflict would most frequently and violently occur because of cultural rather than ideological differences.
+Let me start you off with an explanation on what CK3 is. 
+Crusader Kings 3 is a strategy and roleplaying game in which you take control of a historical figure starting in either 867 or 1066. From here you decide what you want to do, but for the majority of players it involves creating a successful lineage that expands its influence over the medieval world, spreading (and controlling) its culture and religion.
+
+With this as the focus of the game, and the game developers trying their hardest to create a realistic starting point, I got inspired to test out some modern day political theory on the game world and its somewhat easily available dataset. 
+
+I recalled from my background in social science a theory of international politics from the article “Clash of civilizations?”, published in 1993 by Harvard professor Samuel P. Huntington. A theory that roughly states that post-Cold War conflict would most frequently and violently occur because of cultural rather than ideological differences.
 Or as The LA times summarized Huntington’s later book with the same name: “He argued that in a post-Cold War world, violent conflict would come not from ideological friction between nation states, but from cultural and religious differences among the world’s major civilizations. “ [LA times summary](https://www.latimes.com/archives/la-xpm-2008-dec-28-me-huntington28-story.html) 
 
-If it was the case that a world without overarching ideologies tended to have conflicts on based of the friction between cultures and I was sitting on a dataset approximating cultures in the medieval era. A time before ideologies it might indeed be interesting to see how pronounced this tendency for conflict is. 
-
+If it is the case that a world without overarching ideologies tends to have conflicts based on friction between cultures, that too would be the case in the medieval era since ideologies did not exist back then. Since I was sitting on a dataset approximating cultures in the medieval era it might indeed be interesting to see how pronounced this tendency for conflict is.  
 ### How do we find places of friction/conflict
 
-First thing first we need to find a overview of the country, cultures and other significant attributes that might relate the game to the theory, thankfully the game developers have a wiki in place that provides us with just such a table [countylist](https://ck3.paradoxwikis.com/List_of_counties).
+First thing first we need to find an overview of the county's, cultures and other significant attributes that might relate the game to the theory, thankfully the game developers have a wiki in place that provides us with just such a table [countylist](https://ck3.paradoxwikis.com/List_of_counties). On the table we see three orders of what I will be calling administrative titles “Duchy, Kingdom, and Empire as well as two demographic attributes Culture and Religion.
 
 After downloading the table, I import it to the network visualization and investigation tool Gephi.
-In Gephi datapoints are shown in an overview tab as two types of datapoints nodes and edges, or dots and lines in layman’s terms.
+In Gephi datapoints are shown in an overview tab as two types of datapoints nodes and edges or dots and lines in layman’s terms.
 
 **Nodes and Edges**
-In network analysis a node is any entity connected to other entities via a link/edge/or other line. In a unweighted network like mine, the relative importance of a given node is dependent on how many other nodes it is dependent on.  In the picture below a series of nodes are shown with a varying shading of green. The more nodes a node is connected to the greener it becomes.
+In network analysis a node is any entity connected to other entities via a link/edge/or other line. In an unweighted network like mine, the relative importance of a given node is dependent on how many other nodes it is dependent on.  In the picture below a series of nodes are shown with a varying shading of green. The more nodes a node is connected to the greener it becomes.
 
 
 
 <img src="images/actor network.png" alt="hi" class="inline"/>
 
-The same function of “inherited” importance or relevance can be used in our CK3 network of  countys, cultures and empires. It can also be used to form groupings.
+The same function of “inherited” importance or relevance can be used in our CK3 network of  counties, cultures and empires. It can also be used to form groupings.
 As I import the table to Gephi I specify that I want county to be linked to their default groups: Duchys, Kingdoms, Empires, Cultures and Religions. 
 An overall picture of what this grouping looks like can be seen on the following link:
 [grouping] (indsæt link til circle pack)
-Here we see each empire in the game colored by itself. I have however additionally used something called modularity to cluster all the nodes. Modularity is a tool design to calculate what connected nodes are most likely to belong to the same group, additional information on how this is done, can be found in the [Explainer notebook](https://rolfoe.github.io/project-assignment-B/Explainer_notebook.md). What it means here is simply that empires that share more nodes tend to cluster more together. Share nodes here meaning sharing: counties that be themselves share links to cultures and religions.
+
+Here we see each empire in the game, each coloured with its dependant counties. I have however additionally used something called modularity to cluster all the nodes. Modularity is a tool design to calculate what connected nodes are most likely to belong to the same group, additional information on how this is done, can be found in the [Explainer notebook](https://rolfoe.github.io/project-assignment-B/Explainer_notebook.md). What it means here is simply that empires that share more nodes tend to cluster more together. Share nodes here meaning sharing: counties that be themselves share links to cultures and religions.
 This is a nice map to get an idea of what we are looking at, but it does not show us what the most important places are. At this point one would be forgiven for thinking the most important node is simply the largest unit as it has most other nodes connecting it. likely some sort of empire, religion, or culture.
-But since these terms are but names given to a cluster of counties they cannot carry much conflict in and of themselves. After all geography is determined at the county level. 
-Thanks to network science we do however have other ways of investigating the network. There are several ways of finding a node that carries importance in a network in this projects we will be using “betweenness centrality”.
+
+But since these terms are but names given to a cluster of counties they cannot carry any conflicts in and of themselves. After all geography is determined at the county level. For example, the kingdom of Denmark is still considered the kingdom of Denmark if it loses the Duchy of Holstein, just as Holstein is still a duchy if Lubeck becomes independent. Buts since geography is tied to the county level it is the lowest dividable factor, we have available, even if in reality one might talk of suburbs within the count of Lubeck
+
+Thanks to network science we do however have other ways of investigating the network. There are several ways of finding a node that carries importance in a network in this project we will be using “betweenness centrality”.
+
 ** betweenness centrality**
-betweenness centrality is a way of measuring how many times each node part of the shortest bridges between two other nodes in the same network. You literally calculate the shortest path between every pair of nodes in you network. The fraction of times each node is found on such a path, divided by the total number of pairs. Is then the betweenness centrality of that node.
-For our purpose, as no two countries are connected by themselves, but all counties a connected via attributes such as region empires and culture, this means that the county with the highest betweenness centrality is the county not only between two attribute nodes. But it is also on the shortest path between other county nodes. Making it  a measurement  of friction and contestation insofar as culture, religion, or administration can be considered too increase friction and contestation like the theory predicts. 
+betweenness centrality is a way of measuring how many times each node part of the shortest bridges between two other nodes in the same network. You calculate the shortest path between every pair of nodes in your network. The fraction of times each node is found on such a path, divided by the total number of pairs. Is then the betweenness centrality of that node.
+
+For our purpose, no two countries will be connected by themselves, but all counties are going to be connected via attributes such as region empires and culture, this means that the county with the highest betweenness centrality is the county not only between two attribute nodes. But it is also on the shortest path between other county nodes. Making it  a measurement  of friction and contestation insofar as culture, religion, or administration can be considered to increase friction and contestation as the theory predicts. Had the county nodes been connected to eachother aswell
 The link to the map below has been created with that in mind. First by calculating betweenness centrality of all nodes, and the manually setting the betweenness centrality of all non-counties to 0.
 
 [Betweenness centrality map](https://rolfoe.github.io/project-assignment-B/CK3-County-Network-Force%20Atlas-%20betweenness%20centrality/#)
