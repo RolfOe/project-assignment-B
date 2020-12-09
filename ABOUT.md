@@ -14,9 +14,9 @@ Here on the frontpage you will find links to the two main branches of the site:
 
 
 A <a href="Analysis.mb">Analysis</a> for the CK3 fan that simply wants to see where I am taking this project and second:
-[Analysis](https://rolfoe.github.io/project-assignment-B/Analysis)
+
 A <a href="/Explainernotebook.mb">Explainer notebook</a> for the more technically inclined showing how I made it. 
-[Explainernotebook](https://rolfoe.github.io/project-assignment-B/Explainernotebook)
+
 If you simply want to play with my interactive maps or download the datasets yourself the following page is for you:
 <a href="/Code,Tools_and_Maps.mb">Code, Tools and Maps</a>
 
