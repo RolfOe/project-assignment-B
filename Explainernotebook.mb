@@ -52,7 +52,9 @@ this part did not go as planned. while i did get some nice wordclouds i ran out 
     Discussion. Think critically about your creation
 
     What went well?,
+    the xraping all things considered went very well, and it was a deligt to work with Gephi. Epcially how easy it was to import my graphs to the website.
     What is still missing? What could be improved?, Why?
+    
 One place for obvious improvement is in the Wikipedia scraping. here one could either manually check the spelling of the counties. Or find a tool that can translate uncommon characters into a more Wikipedia friendly format.  for the purpose of showcasing the thoughts of the site it was however deemed sufficient to continue without such labour. 
 there is no sentiment analysis to combine my social scince to my videogame, something that is very sad indeed.
     
