@@ -7,4 +7,4 @@ note that i am linking straight to the repository as after spending 20+ hours on
 *https://github.com/RolfOe/project-assignment-B/blob/main/ABOUT.md
 
 and if you want a pretty version of what the site was supposed to have been like
-* [ABOUT](https://rolfoe.github.io/project-assignment-B/ABOUT)
+* [ABOUT](https://rolfoe.github.io/project-assignment-B/ABOUT) **only works for the first page, use other link to acess main content**
