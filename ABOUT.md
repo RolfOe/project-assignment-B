@@ -12,15 +12,15 @@ I am however not a web develop and my webpage making skills are not... good, so 
 **Navigation**
 Here on the frontpage you will find links to the two main branches of the site:
 
-A <a href="Analysis">Analysis</a> for the CK3 fan that simply wants to see where I am taking this project and second:
+A <a href="Analysis.mb">Analysis</a> for the CK3 fan that simply wants to see where I am taking this project and second:
 
-A <a href="/Explainer_notebook">Explainer notebook</a> for the more technically inclined showing how I made it. 
+A <a href="/Explainer_notebook.mb">Explainer notebook</a> for the more technically inclined showing how I made it. 
 
 If you simply want to play with my interactive maps or download the datasets yourself the following page is for you:
 
-<a href="/Code,Tools_and_Maps">Code, Tools and Maps</a>
+<a href="/Code,Tools_and_Maps.mb">Code, Tools and Maps</a>
 
 lastly a list of refrences to the tools websites and etc. i have used, can be found following the link below
 
-<a href="/Refrences">Refrences</a>
+<a href="/Refrences.mb">Refrences</a>
 
