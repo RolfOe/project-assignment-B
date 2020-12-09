@@ -1,3 +1,4 @@
+permalink: /index.html
 # project-assignment-B
 project assignment B for Social Graphs
 
