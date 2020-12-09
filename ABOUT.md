@@ -14,11 +14,11 @@ Here on the frontpage you will find links to the two main branches of the site:
 
 A <a href="Analysis">Analysis</a> for the CK3 fan that simply wants to see where I am taking this project and second:
 
-A <a href="/Explainer_notebook.md">Explainer notebook</a> for the more technically inclined showing how I made it. 
+A <a href="/Explainer_notebook">Explainer notebook</a> for the more technically inclined showing how I made it. 
 
 If you simply want to play with my interactive maps or download the datasets yourself the following page is for you:
 
-<a href="/Code, Tools and Maps.md">Code, Tools and Maps</a>
+<a href="/Code, Tools and Maps">Code, Tools and Maps</a>
 
 
 
