@@ -1,8 +1,6 @@
----
-title: ABOUT
-layout: template
-filename: ABOUT FILE HERE
+About
 --
+
 As the header says this site is an analysis of the game CK3, done as a way of showcasing my own learning of technical tools.
 Now why I am going in to so much depth on a topic so frivolous, well mostly for the fun of it, frivolousness is a big part of the game, as even the patch notes of the express:
 <img src="images/CK3 funny.png" alt="hi" class="inline"/>
