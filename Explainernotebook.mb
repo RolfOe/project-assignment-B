@@ -1,7 +1,7 @@
 Explainer_notebook
 --
-While this project is about the videogame Crusader Kings 3 (CK3), it is more so a showcase of tools tought in the university course Social Graphs at DTU.
-Therefore is must be remembered that tihs project is more of a techinal showcase of tools, then a study in medival politics.
+While this project is about the videogame Crusader Kings 3 (CK3), it is more so a showcase of tools tought in the university course [Social Graphs](https://karakterer.dtu.dk/Histogram/1/02805/v16) at DTU.
+Therefore is must be remembered that this project is more of a techinal showcase of tools, then a study in medival politics.
 Any additon of political theory is there to give context and spice to the datamanipulation and calculations, and should not be taken as valid facts.
 This is espicially true when comparing the language use of modern wikipedia articles, to historical areas of strife and contestation. 
 While the method of comparing language use to historical regions may one day be developed into something, this project is not nearly refined enough to give vaild accounts.
@@ -13,14 +13,14 @@ This being said i hope you enjoy the tour. for the code used in the making of th
 
     Motivation
 
-the dataset from on this website is based on the table of counties from the following gamewiki https://ck3.paradoxwikis.com/List_of_counties.
+The dataset from on this website is based on the table of counties from the following gamewiki https://ck3.paradoxwikis.com/List_of_counties.
 
-the game itself is a game about political intrigue and warfare set in the middelages, and does a good job of emulating the world of its time.
-the reason i thought of useing this game as a part of my project is that the former iteration crusader kings 2. had a build in wikipedia buttom allowing for direct acess to the wikipediapage of whatever county or politicla character you selected in game. while this feature was much hated for being messy I.e not working or sending you to the wrong page, i was wondering what i might find if i used my newly learned tools of wikipedia scraping and graphthroy to take a look at the newest itteration of the game.  
+CK3 is a game about political intrigue and warfare set in the middelages, and does a good job of emulating the world of its time.
+the reason i thought of using this game as a part of my project is that the former iteration crusader kings 2. Had a build in wikipedia buttom allowing for direct acess to the wikipediapage of whatever county or political character you selected in game. While this feature was much hated for being messy I.e not working or sending you to the wrong wikipage, i was wondering what i might find, if i used my newly learned tools of wikipedia scraping and graphtheory to take a look at the newest itteration of the game.  
 
 
 
-overall
+**overall**
 
 
     Why did you choose this/these particular dataset(s)?
@@ -28,8 +28,8 @@ overall
 
 
     What was your goal for the end user's experience?
-The goal for this project was to shead some knew light, on the the already extenisve knowledgebase, used by the Paradox gamedeveoplers in making CK3.
-and to sate my own curiosity on the useability of tools i was tought in the class. when i go onto some on the wilder analysis on the webpage. Discussing the oft cited/oft critized "Clash of Civilasations?" from 1993, by Samuel P. Huntington of Harvard University. a book which in short  posit that post-Cold War conflict would most frequently and violently occur because of cultural rather than ideological differences. While huntington talks in regard to the post-coldwar era world, i decided that digging into a gamefied and historically distant version of this "war of cultures" made me less likely to get into politics.
+The goal for this project was to shead some knew light, on the the already extensive knowledgebase, used by the Paradox gamedeveoplers in making CK3. and to do so on a website with one page for result, anyone could use and one for people who wantedto try doing so for themsself 
+and to sate my own curiosity on the usability of tools i was tought in the class. when i go onto some on the wilder analysis on the webpage. Discussing the oft cited/oft critized "Clash of Civilasations?" from 1993, by Samuel P. Huntington of Harvard University. a book which in short  posit that post-Cold War conflict would most frequently and violently occur because of cultural rather than ideological differences. While huntington talks in regard to the post-coldwar era world, i decided that digging into a gamefied and historically distant version of this "war of cultures" made me less likely to get into politics.
 
 
     Basic stats. Let's understand the dataset better
