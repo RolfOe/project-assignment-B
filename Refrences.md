@@ -1,8 +1,12 @@
 title: references and recognitions
+## Websites
+**Gephi**
 *for importing Gephi graphs to GitHub pages, the following guide taught me how*
 https://blog.miz.space/tutorial/2020/01/05/gephi-tutorial-sigma-js-plugin-publishing-interactive-graph-online/ for a tutorial on how to export Gephi graphs to a GitHub pages website
+**refrences**
+https://en.wikipedia.org/wiki/Centrality
 
-TA having provided me with specific help during the course:
+**TA having provided me with specific help during the course:**
 Benjamin
 Alexandra and 
 João
