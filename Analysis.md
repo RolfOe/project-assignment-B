@@ -43,7 +43,9 @@ The link to the map below has been created with that in mind. First by calculati
 The way these nodes are spread around is done via an algorithm native to Gephi called “Force-Atlas-2. Which pushes all nodes away from one another, but attracts those linked via an edge
 
 Does these counties have something in common, well a quick look, eyeballing if you will, at the data attributes shows us that they all have unconventional mixes of culture and religion or are a minority in their empire. 
-<indsæt link til betweenness centrality table>
+
+[Betweenness centrality table](<img src="images/betweenness centrality table.png" alt="hi" class="inline"/>
+
 This is as expected as we by betweenness centrality are measuring those that link the most different nodes together, and being the only Picts in a Norse religion as is the case of the Shetland isles, means that they are connecting all the Pictish counties to counties following the Norse religion.
 The very top node I terms of betweenness centrality is the node Tunis, a Catholic county in an Muslim empire, with a culture that usually is found among countys much further west. Positioning them as very much a bridge between a great many things
 
