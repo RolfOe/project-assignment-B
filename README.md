@@ -26,9 +26,9 @@ https://github.com/RolfOe/project-assignment-B/blob/main/Code%2CTools_and_Maps.m
 
 You can also go stright to my Github with the following link: https://github.com/RolfOe/project-assignment-B
 
-lastly a list of refrences to the tools websites and etc. i have used, can be found following the link below
+lastly a list of refrences to the tools websites and etc. i have used, can be found following the link below:
 
-<a href="/Refrences.mb">Refrences</a> https://github.com/RolfOe/project-assignment-B/blob/main/Refrences.mb
+https://github.com/RolfOe/project-assignment-B/blob/main/Refrences.mb
 
 
 So you stayed for the story. Good on you (: 
