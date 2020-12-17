@@ -16,7 +16,7 @@ I am however not a web develop and my webpage making skills are not... good, so 
 Here on the frontpage you will find the two main parts of the site:
 
 
-A <a href="https://rolfoe.github.io/project-assignment-B/Explainernotebook.mb">Explainer notebook</a> for the more technically inclined showing how I made it. 
+A [explainer notebook](https://github.com/RolfOe/project-assignment-B/blob/main/Explainernotebook.mb) for the more technically inclined showing how I made it. 
 
 Or you can simply stay right here for the preomised analysis, if you are thus inclined.
 
@@ -61,7 +61,7 @@ An overall picture of what this grouping looks like can be seen on the following
 [grouped counties](https://rolfoe.github.io/project-assignment-B/CK3-County-Network-Circlelayout)
 
 Here we see each node, coloured along with tis dependant entities. via something called called modularity to cluster all the nodes.
-Modularity is a tool design to calculate what connected nodes are most likely to belong to the same group, additional information on how this is done, can be found in the [Explainer notebook](https://rolfoe.github.io/project-assignment-B/Explainernotebook.mb). What it means here is simply that empires that share more nodes tend to cluster more together. Share nodes here meaning sharing: counties that be themselves share links to cultures and religions.
+Modularity is a tool design to calculate what connected nodes are most likely to belong to the same group, additional information on how this is done, can be found in the [Explainer notebook](https://github.com/RolfOe/project-assignment-B/blob/main/Explainernotebook.mb). What it means here is simply that empires that share more nodes tend to cluster more together. Share nodes here meaning sharing: counties that be themselves share links to cultures and religions.
 This is a nice map to get an idea of what we are looking at, but it does not show us what the most important places are. At this point one would be forgiven for thinking the most important node is simply the largest unit as it has most other nodes connecting it. likely some sort of empire, religion, or culture.
 
 But since these terms are but names given to a cluster of counties they cannot carry any conflicts in and of themselves. while county is the smallest unit in the game, is also where geography is determined. 
