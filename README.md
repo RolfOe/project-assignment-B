@@ -20,12 +20,15 @@ A <a href="/Explainernotebook.mb">Explainer notebook</a> for the more technicall
 
 Or you can simply stay right here for the preomised analysis, if you are thus inclined.
 
+**Extra material**
 If you simply want to play with my interactive maps or download the datasets yourself the following page is for you:
-<a href="/Code,Tools_and_Maps.mb">Code, Tools and Maps</a>
+<a href="/Code,Tools_and_Maps.mb">Code, Tools and Maps</a> 
+
+You can also go stright to my Github with the folling link: https://github.com/RolfOe/project-assignment-B
 
 lastly a list of refrences to the tools websites and etc. i have used, can be found following the link below
 
-<a href="/Refrences.mb">Refrences</a>
+<a href="/Refrences.mb">Refrences</a> https://github.com/RolfOe/project-assignment-B/blob/main/Refrences.mb
 
 
 So you stayed for the story. Good on you (: 
