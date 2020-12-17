@@ -1,5 +1,5 @@
-# project-assignment-B
-project assignment B for Social Graphs
+# Project-assignment-B
+A project assignment  for The Social Graphs course at DTU
 
 About
 --
